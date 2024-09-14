@@ -1,5 +1,4 @@
 import threading
-import time
 import pandas as pd
 from live_data import extract_table_data
 from router import RouterScraper
