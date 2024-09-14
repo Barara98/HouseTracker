@@ -51,4 +51,4 @@ def extract_table_data(html_file, csv_output):
 
 # Example of how to call this function:
 if __name__ == '__main__':
-    extract_table_data('live_table.html', 'live_data.csv')
+    extract_table_data('live_table.html', 'liveData.csv')
