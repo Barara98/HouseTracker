@@ -39,8 +39,8 @@ class MonitoringSystem:
         success = self.router.download_table()
         if success:
             # Process the table if downloaded successfully
-            extract_table_data('live_table.html', 'live_data.csv')
-            guests = self.who_is_home('house_mac.csv', 'live_data.csv')
+            extract_table_data('live_table.html', 'liveData.csv')
+            guests = self.who_is_home('house_mac.csv', 'liveData.csv')
             for guest in guests:
                 print(guest["Owner"])
             self.router.refresh_page()

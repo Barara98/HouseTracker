@@ -47,8 +47,3 @@ def extract_table_data(html_file, csv_output):
     # delete live_table.html
     os.remove(html_file)
     print(f"Deleted '{html_file}'")
-
-
-# Example of how to call this function:
-if __name__ == '__main__':
-    extract_table_data('live_table.html', 'liveData.csv')
